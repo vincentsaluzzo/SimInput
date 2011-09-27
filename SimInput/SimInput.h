@@ -6,8 +6,5 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-@interface SimInput : NSObject
-
-@end
+#import "KeyboardSimulator.h"
+#import "MouseSimulator.h"

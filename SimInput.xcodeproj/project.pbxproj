@@ -9,7 +9,12 @@
 /* Begin PBXBuildFile section */
 		1FF808D71432620100F6F3BA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF808D61432620100F6F3BA /* Cocoa.framework */; };
 		1FF808E11432620100F6F3BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF808DF1432620100F6F3BA /* InfoPlist.strings */; };
-		1FF808E51432620100F6F3BA /* SimInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF808E41432620100F6F3BA /* SimInput.m */; };
+		1FF808EF1432623100F6F3BA /* KeyboardSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF808EB1432623100F6F3BA /* KeyboardSimulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF808F01432623100F6F3BA /* KeyboardSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF808EC1432623100F6F3BA /* KeyboardSimulator.m */; };
+		1FF808F11432623100F6F3BA /* MouseSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF808ED1432623100F6F3BA /* MouseSimulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF808F21432623100F6F3BA /* MouseSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF808EE1432623100F6F3BA /* MouseSimulator.m */; };
+		1FF808F41432624300F6F3BA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF808F31432624300F6F3BA /* CoreFoundation.framework */; };
+		1FF808F51432624D00F6F3BA /* SimInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF808E31432620100F6F3BA /* SimInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,11 +23,15 @@
 		1FF808D91432620100F6F3BA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		1FF808DA1432620100F6F3BA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		1FF808DB1432620100F6F3BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1FF808DE1432620100F6F3BA /* SimInput-Info.plist */ = {isa = PBXFileReference; path = "SimInput-Info.plist"; sourceTree = "<group>"; };
+		1FF808DE1432620100F6F3BA /* SimInput-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimInput-Info.plist"; sourceTree = "<group>"; };
 		1FF808E01432620100F6F3BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1FF808E21432620100F6F3BA /* SimInput-Prefix.pch */ = {isa = PBXFileReference; path = "SimInput-Prefix.pch"; sourceTree = "<group>"; };
-		1FF808E31432620100F6F3BA /* SimInput.h */ = {isa = PBXFileReference; path = SimInput.h; sourceTree = "<group>"; };
-		1FF808E41432620100F6F3BA /* SimInput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimInput.m; sourceTree = "<group>"; };
+		1FF808E21432620100F6F3BA /* SimInput-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimInput-Prefix.pch"; sourceTree = "<group>"; };
+		1FF808E31432620100F6F3BA /* SimInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimInput.h; sourceTree = "<group>"; };
+		1FF808EB1432623100F6F3BA /* KeyboardSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardSimulator.h; sourceTree = "<group>"; };
+		1FF808EC1432623100F6F3BA /* KeyboardSimulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardSimulator.m; sourceTree = "<group>"; };
+		1FF808ED1432623100F6F3BA /* MouseSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseSimulator.h; sourceTree = "<group>"; };
+		1FF808EE1432623100F6F3BA /* MouseSimulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MouseSimulator.m; sourceTree = "<group>"; };
+		1FF808F31432624300F6F3BA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF808F41432624300F6F3BA /* CoreFoundation.framework in Frameworks */,
 				1FF808D71432620100F6F3BA /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,6 +67,7 @@
 		1FF808D51432620100F6F3BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1FF808F31432624300F6F3BA /* CoreFoundation.framework */,
 				1FF808D61432620100F6F3BA /* Cocoa.framework */,
 				1FF808D81432620100F6F3BA /* Other Frameworks */,
 			);
@@ -76,8 +87,11 @@
 		1FF808DC1432620100F6F3BA /* SimInput */ = {
 			isa = PBXGroup;
 			children = (
+				1FF808EB1432623100F6F3BA /* KeyboardSimulator.h */,
+				1FF808EC1432623100F6F3BA /* KeyboardSimulator.m */,
+				1FF808ED1432623100F6F3BA /* MouseSimulator.h */,
+				1FF808EE1432623100F6F3BA /* MouseSimulator.m */,
 				1FF808E31432620100F6F3BA /* SimInput.h */,
-				1FF808E41432620100F6F3BA /* SimInput.m */,
 				1FF808DD1432620100F6F3BA /* Supporting Files */,
 			);
 			path = SimInput;
@@ -100,6 +114,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF808EF1432623100F6F3BA /* KeyboardSimulator.h in Headers */,
+				1FF808F11432623100F6F3BA /* MouseSimulator.h in Headers */,
+				1FF808F51432624D00F6F3BA /* SimInput.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +179,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FF808E51432620100F6F3BA /* SimInput.m in Sources */,
+				1FF808F01432623100F6F3BA /* KeyboardSimulator.m in Sources */,
+				1FF808F21432623100F6F3BA /* MouseSimulator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
