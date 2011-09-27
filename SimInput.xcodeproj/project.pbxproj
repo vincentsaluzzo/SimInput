@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FF808D71432620100F6F3BA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF808D61432620100F6F3BA /* Cocoa.framework */; };
+		1FF808E11432620100F6F3BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF808DF1432620100F6F3BA /* InfoPlist.strings */; };
+		1FF808E51432620100F6F3BA /* SimInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF808E41432620100F6F3BA /* SimInput.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FF808D31432620100F6F3BA /* SimInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF808D61432620100F6F3BA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1FF808D91432620100F6F3BA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1FF808DA1432620100F6F3BA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1FF808DB1432620100F6F3BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FF808DE1432620100F6F3BA /* SimInput-Info.plist */ = {isa = PBXFileReference; path = "SimInput-Info.plist"; sourceTree = "<group>"; };
+		1FF808E01432620100F6F3BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FF808E21432620100F6F3BA /* SimInput-Prefix.pch */ = {isa = PBXFileReference; path = "SimInput-Prefix.pch"; sourceTree = "<group>"; };
+		1FF808E31432620100F6F3BA /* SimInput.h */ = {isa = PBXFileReference; path = SimInput.h; sourceTree = "<group>"; };
+		1FF808E41432620100F6F3BA /* SimInput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimInput.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FF808CF1432620100F6F3BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF808D71432620100F6F3BA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FF808C71432620100F6F3BA = {
+			isa = PBXGroup;
+			children = (
+				1FF808DC1432620100F6F3BA /* SimInput */,
+				1FF808D51432620100F6F3BA /* Frameworks */,
+				1FF808D41432620100F6F3BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FF808D41432620100F6F3BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FF808D31432620100F6F3BA /* SimInput.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FF808D51432620100F6F3BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FF808D61432620100F6F3BA /* Cocoa.framework */,
+				1FF808D81432620100F6F3BA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FF808D81432620100F6F3BA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FF808D91432620100F6F3BA /* AppKit.framework */,
+				1FF808DA1432620100F6F3BA /* CoreData.framework */,
+				1FF808DB1432620100F6F3BA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1FF808DC1432620100F6F3BA /* SimInput */ = {
+			isa = PBXGroup;
+			children = (
+				1FF808E31432620100F6F3BA /* SimInput.h */,
+				1FF808E41432620100F6F3BA /* SimInput.m */,
+				1FF808DD1432620100F6F3BA /* Supporting Files */,
+			);
+			path = SimInput;
+			sourceTree = "<group>";
+		};
+		1FF808DD1432620100F6F3BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FF808DE1432620100F6F3BA /* SimInput-Info.plist */,
+				1FF808DF1432620100F6F3BA /* InfoPlist.strings */,
+				1FF808E21432620100F6F3BA /* SimInput-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FF808D01432620100F6F3BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1FF808D21432620100F6F3BA /* SimInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF808E81432620100F6F3BA /* Build configuration list for PBXNativeTarget "SimInput" */;
+			buildPhases = (
+				1FF808CE1432620100F6F3BA /* Sources */,
+				1FF808CF1432620100F6F3BA /* Frameworks */,
+				1FF808D01432620100F6F3BA /* Headers */,
+				1FF808D11432620100F6F3BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimInput;
+			productName = SimInput;
+			productReference = 1FF808D31432620100F6F3BA /* SimInput.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FF808C91432620100F6F3BA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1FF808CC1432620100F6F3BA /* Build configuration list for PBXProject "SimInput" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FF808C71432620100F6F3BA;
+			productRefGroup = 1FF808D41432620100F6F3BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FF808D21432620100F6F3BA /* SimInput */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FF808D11432620100F6F3BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF808E11432620100F6F3BA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FF808CE1432620100F6F3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF808E51432620100F6F3BA /* SimInput.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FF808DF1432620100F6F3BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF808E01432620100F6F3BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FF808E61432620100F6F3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1FF808E71432620100F6F3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1FF808E91432620100F6F3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimInput/SimInput-Prefix.pch";
+				INFOPLIST_FILE = "SimInput/SimInput-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1FF808EA1432620100F6F3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimInput/SimInput-Prefix.pch";
+				INFOPLIST_FILE = "SimInput/SimInput-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FF808CC1432620100F6F3BA /* Build configuration list for PBXProject "SimInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF808E61432620100F6F3BA /* Debug */,
+				1FF808E71432620100F6F3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF808E81432620100F6F3BA /* Build configuration list for PBXNativeTarget "SimInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF808E91432620100F6F3BA /* Debug */,
+				1FF808EA1432620100F6F3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FF808C91432620100F6F3BA /* Project object */;
+}
